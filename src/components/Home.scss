@@ -126,20 +126,17 @@ $Fira-fans:'Fira-fans';
     padding: 10px;
 }
 .navbar .options a{
-    text-decoration: underline;
+    text-decoration: none;
     font-family: $Balsamiq-Sans;
     font-size: 35px;
     color: rgba(0, 0,0, 0.6);
     text-shadow: 0px 0px 0px 2px #000;
     margin-left: 8px;
     transition: all 400ms ease-in-out;
+    cursor: default;
 
 }
 
-.navbar .options a:hover{
-    transform: scale(1.1);
-    color: #000;
-}
 
 
 .info-pokemon{
