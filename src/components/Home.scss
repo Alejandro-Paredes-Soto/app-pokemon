@@ -1,0 +1,213 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&display=swap');
+
+
+$Viga:'Viga';
+$Balsamiq-Sans:'Balsamiq Sans';
+$Fira-fans:'Fira-fans';
+.Home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+   
+}
+
+.content{
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar{
+    width: 100%;
+    min-height: 100px;
+    background: #EBFA86;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+.navbar .sub-menu{
+    width: 100%;
+    height: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    transition: all 400ms ease-in-out ;
+
+}
+
+.navbar .sub-menu.show{
+    height: 50px;
+    visibility: visible;
+}
+
+.navbar .sub-menu a{
+    font-family: $Fira-fans;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.navbar .btn-hambur{
+    border: none;
+    width: 50px;
+    height: 50px;
+    background: #745454;
+    color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 0px 8px #fff;
+    display: none;
+
+}
+
+.navbar .head-pikachu{
+  
+    width: 45px;
+    height: 45px;
+    border-radius: 20px;
+
+}
+
+.navbar form{
+    display: flex;
+    height: 45px;
+    
+}
+
+.navbar form input{
+    box-shadow: 0px 0px 10px #fff;
+}
+
+.navbar form input::placeholder{
+    font-family: $Viga;
+    text-align: center;
+
+}
+
+.navbar  form button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+    padding: 7px;
+    background: #EFEF53;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0px 0px 3px #fff;
+    border-radius: 10px;
+    transition: all 400ms ease-in-out;
+
+}
+
+.navbar form button:hover{
+    background: white;
+    color: #EFEF53;
+    border: 1px solid #EFEF53;
+}
+
+.navbar .options{
+    min-width: 450px; 
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.navbar .options a{
+    text-decoration: underline;
+    font-family: $Balsamiq-Sans;
+    font-size: 35px;
+    color: rgba(0, 0,0, 0.6);
+    text-shadow: 0px 0px 0px 2px #000;
+    margin-left: 8px;
+    transition: all 400ms ease-in-out;
+
+}
+
+.navbar .options a:hover{
+    transform: scale(1.1);
+    color: #000;
+}
+
+
+.info-pokemon{
+    width: 100%;
+    height: 100%;
+    background: #745454;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer{
+    background: #F3B62B;
+    width: 100%;
+    height: 120px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .redes{
+    width: 350px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+footer .redes h5{
+    font-family: $Fira-fans;
+    color: white;
+    font-size: 30px;
+}
+footer .redes ,h6{
+    font-family: $Fira-fans;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+footer .contactos{
+    min-width: 350px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+footer .contactos h5{
+font-family: $Fira-fans;
+color: white;
+font-size: 30px;
+}
+
+footer .contactos strong{
+    font-family: $Fira-fans;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+

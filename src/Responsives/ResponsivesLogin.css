@@ -1,0 +1,9 @@
+@media (max-width: 767px){
+     .container .form-container .img{
+         display: none;
+     }
+
+     .container .form-container .form{
+         width: 100%;
+     }
+}

@@ -1,0 +1,43 @@
+@media (max-width: 862px){
+
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .navbar .btn-hambur{
+        display: block;
+    }
+    .navbar .options{
+        display: none;
+    }
+}
+
+
+@media (max-width: 813px){
+    footer .redes h5{
+        font-size: 20px;
+    }
+
+    footer .contactos h5{
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 582px){
+
+    footer{
+        height: 170px;
+        display: flex;
+        flex-direction: column;
+    }
+    footer .redes h5{
+        font-size: 15px;
+    }
+
+    footer .contactos h5,h6{
+        font-size: 15px;
+    }
+
+}
