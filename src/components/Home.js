@@ -62,7 +62,7 @@ return(
        </form>
 
        <div className="options">
-           <a >Buscar pokemon</a>
+           <h4>Buscar pokemon</h4>
 
        </div>
 
