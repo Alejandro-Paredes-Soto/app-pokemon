@@ -73,7 +73,7 @@ return(
        </button>
 
        <div className="sub-menu" id="submenu">
-           <a href="/home">Buscar pokemon</a>
+           <a href="#">Buscar pokemon</a>
 
        </div>
 
